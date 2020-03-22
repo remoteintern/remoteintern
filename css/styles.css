@@ -4,11 +4,12 @@ body {
     font-family: sans-serif;
     font-size: 1.4em;
 }
-h1 {
+p {
     font-weight: 400;
     width: 80vw;
     margin: 2vw;
-    font-size: 1em;
+    font-size: 1.4em;
+    margin-bottom: 5vw;
 }
 
 ul {
@@ -21,7 +22,7 @@ ul {
 li {
     float: left;
     border: 1px solid #000;
-    border-radius: 1.3vw;
+    border-radius: 50px;
     padding: 1.3vw;
     transition: 0.3s;
     margin: 0 10px 10px 0;
@@ -46,7 +47,7 @@ li:hover a{
 
 /* --------------------------*/ 
 @media screen and (min-width: 0px) and (max-width:500px) {
-    h1 {
+    p {
         font-size: 1em;
         margin-bottom: 10vw;
     }
@@ -54,15 +55,14 @@ li:hover a{
         font-size: 1.2em;
     }
     li {
-        border-radius: 3vw;
-        padding: 2.3vw;
+        padding: 3vw 4.2vw;
     }
     ul {
         width: inherit;
     }
 }
 @media screen and (min-width: 501px) and (max-width:768px) {
-    h1 {
+    p {
         font-size: 1.3em;
         margin-bottom: 5vw;
     }
@@ -70,20 +70,18 @@ li:hover a{
         font-size: 1.5em;
     }
     li {
-        border-radius: 1.5vw;
-        padding: 1.5vw;
+        padding: 1.5vw 2.5vw;
     }
 }
 /* --------------------------*/ 
 @media screen and (min-width: 1440px) and (max-width:4000px){
-    h1 {
+    p {
         font-size: 1em;
     }
     body {
         font-size: 2em;
     }
     li {
-        border-radius: 1.7vw;
-        padding: 1.2vw;
+        padding: 1.2vw 1.9vw;
     }
 }
