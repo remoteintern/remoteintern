@@ -15,6 +15,7 @@ ul {
     list-style: none;
     padding: 0;
     margin: 0 2vw;
+    width: 90%;
 }
 
 li {
@@ -55,6 +56,9 @@ li:hover a{
     li {
         border-radius: 3vw;
         padding: 2.3vw;
+    }
+    ul {
+        width: inherit;
     }
 }
 @media screen and (min-width: 501px) and (max-width:768px) {
