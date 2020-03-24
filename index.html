@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link href="css/styles.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <title>YSDN Remote Interns</title>
 </head>
 
@@ -27,6 +28,7 @@
     <li><a href="https://www.dalewski.xyz/" target="_blank">Antoni Dalewski</a></li>
     <li><a href="https://www.anushkatodi.design/" target="_blank">Anushka Todi</a></li>
     <li><a href="https://ashnaray.com" target="_blank">Ashna Ray</a></li>
+    <li><a href="https://www.bavila.design/" target="_blank">Berni Avila</a></li>
     <li><a href="https://thecaseyw.com" target="_blank">Casey Wang</a></li>
     <li><a href="https://www.christinechow.me/" target="_blank">Christine Chow</a></li>
     <li><a href="https://www.dai-town.com/" target="_blank">Dainia Townsend</a></li>
@@ -47,6 +49,7 @@
     <li><a href="https://janhaoly.com/" target="_blank">Jan Ly</a></li>
     <li><a href="https://www.janetsohn.com/" target="_blank">Janet Sohn</a></li>
     <li><a href="https://www.jennytieu.design/" target="_blank">Jenny Tieu</a></li>
+    <li><a href="https://www.jessicadou.com/" target="_blank">Jessica Dou</a></li>
     <li><a href="https://johnyeon.com/" target="_blank">John Yeon</a></li>
     <li><a href="https://www.jorgotaci.com/" target="_blank">Jorgo Taci</a></li>
     <li><a href="https://www.gaspar.design/" target="_blank">Joshua Gaspar</a></li>
@@ -57,6 +60,7 @@
     <li><a href="https://www.kristinacampeau.com/" target="_blank">Kristina Campeau</a></li>
     <li><a href="https://leahfellows.ca/" target="_blank">Leah Fellows</a></li>
     <li><a href="http://lily.do/" target="_blank">Lily Do</a></li>
+    <li><a href="https://www.lindseyjonesdesign.com/" target="_blank">Linsey Jones</a></li>
     <li><a href="https://itsliqi.com/" target="_blank">Liqi Zhong</a></li>
     <li><a href="https://www.luisajahndesign.com/" target="_blank">Luisa Jahn</a></li>
     <li><a href="http://makebagaskin.ca/" target="_blank">Makeba Gaskin</a></li>
@@ -68,6 +72,7 @@
     <li><a href="https://willemsma.design/" target="_blank">Rachelle Willemsma</a></li>
     <li><a href="http://www.rileyurq.ca/" target="_blank">Riley Urquhart</a></li>
     <li><a href="https://studio-rc.ca/" target="_blank">Robyn Chmelyk</a></li>
+    <li><a href="https://sabrinafortindesign.myportfolio.com/" target="_blank">Sabrina Fortin</a></li>
     <li><a href="https://samyangdes.com/" target="_blank">Sam Yang</a></li>
     <li><a href="https://samkate.design/" target="_blank">Samantha Crawford</a></li>
     <li><a href="https://www.sammcampbell.com/" target="_blank">Samm Campbell</a></li>
@@ -80,5 +85,11 @@
 </ul>
 </div>
 
+<script>
+    var ul = document.querySelector('ul');
+for (var i = ul.children.length; i >= 0; i--) {
+    ul.appendChild(ul.children[Math.random() * i | 0]);
+}
+</script>
 </body>
 </html>
