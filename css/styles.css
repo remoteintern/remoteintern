@@ -1,8 +1,11 @@
 @charset "UTF-8";
 
+:root {
+  font-size: 100%;
+}
+
 body {
     font-family: sans-serif;
-    font-size: 0.7em;
 }
 p {
     position: relative;
@@ -23,6 +26,7 @@ ul {
 }
 
 li {
+    font-size: 1em;
     float: left;
     border: 1px solid #000;
     padding: 0.5vw;
