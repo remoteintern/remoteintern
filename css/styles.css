@@ -16,11 +16,15 @@ p a:hover {
     color: #909090;
 }
 
+a:visited {
+    color: #909090;
+}
+
 ul {
     list-style: none;
     padding: 0;
     margin: 0 2vw;
-    width: 90%;
+    width: 90vw;
 }
 
 li {
