@@ -95,7 +95,7 @@ li:hover a{
         height: 8vw;
     }
 }
-@media screen and (min-width: 1440px) and (max-width:4000px){
+@media screen and (min-width: 1500px) and (max-width:4000px){
     ul {
         grid-template-columns: repeat(auto-fill, minmax(14%, 1fr));
         grid-column-gap: 2vw;
