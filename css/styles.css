@@ -34,6 +34,10 @@ li {
     transition: 0.3s;
 }
 
+p a:hover {
+    color: #909090;
+}
+
 li a{
     display: block;
     width: 100%;
